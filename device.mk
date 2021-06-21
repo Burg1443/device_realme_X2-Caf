@@ -284,6 +284,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # Rootdir
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/etc/,$(TARGET_COPY_OUT_VENDOR)/etc/init/hw) \
