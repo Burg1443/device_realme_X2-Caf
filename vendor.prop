@@ -115,6 +115,10 @@ vendor.display.use_smooth_motion=1
 # DPM
 persist.vendor.dpmhalservice.enable=1
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # Display post-processing
 ro.vendor.display.sensortype=2
 
