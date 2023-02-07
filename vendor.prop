@@ -119,6 +119,9 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Dalvik
 dalvik.vm.systemuicompilerfilter=speed
 
+# Display
+vendor.display.use_smooth_motion=1
+
 # DPM
 persist.vendor.dpmhalservice.enable=1
 
