@@ -768,13 +768,6 @@ odm/vendor/firmware/goodixfp.mdt
 # Health
 vendor/bin/hw/android.hardware.health@2.1-service:vendor/bin/hw/android.hardware.health@2.1-service.RMX1993
 
-# IOP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|9330f8e0a37f59cf5bc24174094bce61947753e8
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
-vendor/lib64/libqti-iopd-client.so|041e79a67f1537a0a77650d1f729d55f50f9b30b
-vendor/lib64/libqti-iopd.so|8436caef7befba4f41fd14423a691b47106cb8c1
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|a520fd07df2a5a6ea78372300978baf6deaf89da
-
 # IPA Firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
@@ -915,34 +908,6 @@ odm/etc/init/init.network.rc
 # Orms
 odm/lib64/libormshalclient.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
-
-# PASR - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f9daa32eae1410ecc258d1bede6b0b51289d6892
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|b65beb3fdad836dd56ae57e2bc54091ee0b2c5e9
-
-# Perf
-system_ext/etc/seccomp_policy/perfservice.policy
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
-vendor/bin/msm_irqbalance
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
-vendor/etc/lm/AdaptLaunchFeature.xml
-vendor/etc/lm/AppClassifierFeature.xml
-vendor/etc/lm/GameOptimizationFeature.xml
-vendor/lib64/libadaptlaunch.so
-vendor/lib64/libappclassifier.so
-vendor/lib64/libgameoptfeature.so
-vendor/lib64/liblearningmodule.so
-vendor/lib64/libmeters-ns.so
-vendor/lib64/libmeters.so
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperfioctl.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
-vendor/lib64/libreffeature.so
-vendor/lib64/libskewknob.so
 
 # Peripheral - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
