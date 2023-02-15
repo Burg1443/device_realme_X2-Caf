@@ -272,7 +272,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    NotchBarKiller
+    NotchBarKiller \
+    DotKiller
 
 # Parts
 PRODUCT_PACKAGES += \
