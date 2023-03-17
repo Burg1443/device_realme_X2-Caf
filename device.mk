@@ -239,7 +239,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libminijail \
-    libavservices_minijail \
     libstagefright_softomx.vendor
 
 PRODUCT_COPY_FILES += \
@@ -295,6 +294,7 @@ TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
+    av \
     bt \
     perf
 
