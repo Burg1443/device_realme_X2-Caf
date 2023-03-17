@@ -70,7 +70,6 @@ PRODUCT_PACKAGES += \
     audio.primary.default \
     audio.r_submix.default \
     audio.usb.default \
-    liba2dpoffload \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
