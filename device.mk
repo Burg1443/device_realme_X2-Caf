@@ -300,6 +300,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     perf
 
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor \
